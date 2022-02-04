@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+.navbar-nav{
+    justify-content: center;
+    flex: auto;
+}
+.header-sec{
+    background-color: #2eafe1;
+    color: white;
+    height: 57px;
+}
+.header-sec img{
+    width: 27px;
+    color: white;
+    position: relative;
+    top: 4px;
+}
+.section-1{
+    background-color: white;
+}
+.list-section{
+    margin-top: 38px;
+}
+.header-sec-1{
+    background-color: white;
+}
+.question{
+    line-height: 3;
+}
+.qus-para{
+    line-height: 1.2;
+}
+.help-section{
+    background-color:#670099;
+    color: white;
+    height: 210px;
+    margin-top: 50px;
+}
+.help-section p{
+    padding-top: 25px;
+}
+.help-section h2{
+    color: #fef898;
+}
+.bottom-section{
+    line-height: 3;
+    text-transform: capitalize;
+}
+.bottom-section h3{
+    font-weight: bold;
+}
+.left-section{
+    line-height: 1.5;
+}
+.card-heading{
+    border-bottom: 2px solid rgb(207, 207, 207);
+}
+.card button{ 
+    border-radius: 22px;
+    margin-left: 25px;
+    background-color: #fff79a;
+    height: 40px;
+    padding: 1px 40px;
+    margin-top: 28px;
+    border: none;
+}
+.body-section-2{
+    background-color:#670099 ;
+}
+.body-section-2 p{
+    font-size: 18px;
+}
+.card-section-3 .card-body{
+    background-color:#fd0ceab0 ;
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+    .card-section-1 {
+       margin-top: 20px;
+    }  
+    
+}
+@media (min-width:320px) and  ( max-width:425px){
+    .help-section p{
+        font-size: 19px;
+       
+    }
+    .help-section{
+        height: 162px;
+        
+    }
+}
+@media (min-width:768px) and ( max-width:1200px){
+      
+    .list-section li {
+        font-size: 20px;
+    }
+    .question h6,p{
+       font-size: 17px;
+    }
+    .section-3 h6 {
+        font-size:19px;
+}
+}
+    
